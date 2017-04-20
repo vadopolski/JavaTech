@@ -12,6 +12,7 @@ public class PortfolioTester {
         PortfolioTester tester = new PortfolioTester();
         tester.setUp();
         System.out.println(tester.testMarketValue()?"pass":"fail");
+
     }
 
     private void setUp() {
