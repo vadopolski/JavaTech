@@ -18,9 +18,6 @@ public class MainClass {
     public void testMethodThatCallStaticMethod(){
         PowerMockito.mockStatic(Static.class);
 
-        Mockito.when(Static.firstStaticMethod()).thenReturn(123);
-
-        classCallStaticMethodObj.execute();
 
 
         // https://github.com/powermock/powermock/wiki/mockitousage
