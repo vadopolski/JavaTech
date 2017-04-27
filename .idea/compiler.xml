@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Enum" />
+        <module name="Functional" />
         <module name="PowerMock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaTech" target="1.5" />
-      <module name="PowerMock" target="1.5" />
+      <module name="Enum" target="1.8" />
+      <module name="Functional" target="1.8" />
+      <module name="JavaTech" target="1.8" />
+      <module name="PowerMock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
