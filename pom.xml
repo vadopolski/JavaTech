@@ -12,6 +12,7 @@
         <module>PowerMock</module>
         <module>Enum</module>
         <module>Functional</module>
+        <module>jdbc</module>
     </modules>
 
 

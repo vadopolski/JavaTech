@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Functional/Functional.iml" filepath="$PROJECT_DIR$/Functional/Functional.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTech.iml" filepath="$PROJECT_DIR$/JavaTech.iml" />
       <module fileurl="file://$PROJECT_DIR$/PowerMock/PowerMock.iml" filepath="$PROJECT_DIR$/PowerMock/PowerMock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
     </modules>
   </component>
 </project>

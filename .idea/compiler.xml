@@ -2,20 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Enum" />
         <module name="Functional" />
+        <module name="jdbc" />
         <module name="PowerMock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Enum" target="1.8" />
+      <module name="Enum" target="1.5" />
       <module name="Functional" target="1.8" />
-      <module name="JavaTech" target="1.8" />
-      <module name="PowerMock" target="1.8" />
+      <module name="JavaTech" target="1.5" />
+      <module name="jdbc" target="1.7" />
+      <module name="PowerMock" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
