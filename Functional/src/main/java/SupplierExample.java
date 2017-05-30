@@ -1,12 +1,11 @@
 import java.time.LocalDate;
-import java.util.Locale;
 
 @FunctionalInterface
 interface Supplier<T> {
     public T get();
 }
 
-public class FunctionalInterfaceExample {
+public class SupplierExample {
 
     public static void main(String[] args) {
         Supplier<LocalDate> s1 = () -> LocalDate.now();

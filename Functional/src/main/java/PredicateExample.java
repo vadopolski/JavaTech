@@ -11,7 +11,7 @@ interface BiPredicateLocal<B, T> {
     boolean test (B b, T t);
 }
 
-public class FunctionalPredicateEx {
+public class PredicateExample {
 
     public static void main(String[] args) {
 
