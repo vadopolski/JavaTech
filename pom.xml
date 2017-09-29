@@ -13,6 +13,8 @@
         <module>Enum</module>
         <module>Functional</module>
         <module>jdbc</module>
+        <module>IO</module>
+        <module>Dates</module>
     </modules>
 
 
