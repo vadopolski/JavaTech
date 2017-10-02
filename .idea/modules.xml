@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Functional/Functional.iml" filepath="$PROJECT_DIR$/Functional/Functional.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTech.iml" filepath="$PROJECT_DIR$/JavaTech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mockito/Mockito.iml" filepath="$PROJECT_DIR$/Mockito/Mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/PowerMock/PowerMock.iml" filepath="$PROJECT_DIR$/PowerMock/PowerMock.iml" />
       <module fileurl="file://$PROJECT_DIR$/UnitTest/UnitTest.iml" filepath="$PROJECT_DIR$/UnitTest/UnitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />

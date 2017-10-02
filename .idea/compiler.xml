@@ -11,6 +11,7 @@
         <module name="Functional" />
         <module name="IO" />
         <module name="jdbc" />
+        <module name="Mockito" />
         <module name="PowerMock" />
         <module name="UnitTest" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="IO" target="1.7" />
       <module name="JavaTech" target="1.5" />
       <module name="jdbc" target="1.7" />
+      <module name="Mockito" target="1.5" />
       <module name="PowerMock" target="1.5" />
       <module name="UnitTest" target="1.5" />
     </bytecodeTargetLevel>
