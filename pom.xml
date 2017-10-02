@@ -15,6 +15,7 @@
         <module>jdbc</module>
         <module>IO</module>
         <module>Dates</module>
+        <module>UnitTest</module>
     </modules>
 
 

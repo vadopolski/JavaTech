@@ -12,6 +12,7 @@
         <module name="IO" />
         <module name="jdbc" />
         <module name="PowerMock" />
+        <module name="UnitTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="JavaTech" target="1.5" />
       <module name="jdbc" target="1.7" />
       <module name="PowerMock" target="1.5" />
+      <module name="UnitTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
