@@ -16,6 +16,10 @@
         <module>IO</module>
         <module>Dates</module>
         <module>UnitTest</module>
+        <module>EJB</module>
+        <module>enterprisejavabeans</module>
+        <module>ejb</module>
+        <module>asynchronous</module>
     </modules>
 
 

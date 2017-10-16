@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="asynchronous" />
         <module name="Dates" />
+        <module name="ejb" />
         <module name="Enum" />
         <module name="Functional" />
         <module name="IO" />
@@ -17,7 +19,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="asynchronous" target="1.5" />
       <module name="Dates" target="1.8" />
+      <module name="EJB" target="1.5" />
+      <module name="ejb" target="1.6" />
+      <module name="enterprisejavabeans" target="1.5" />
       <module name="Enum" target="1.5" />
       <module name="Functional" target="1.8" />
       <module name="IO" target="1.7" />
