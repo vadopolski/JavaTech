@@ -1,7 +1,8 @@
+import com.baeldung.dependency.ApplicationContextTestInjectType;
+import com.baeldung.dependency.ArbitraryDependency;
 import javax.ejb.EJB;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
@@ -20,6 +21,5 @@ public class FieldInjectTest {
     @Test
     public void givenInjectAnnotation_WhenOnField_ThenValidDependency(){
         assertNotNull(fieldInjectDependency);
-
     }
 }

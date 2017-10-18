@@ -1,3 +1,4 @@
+import com.baeldung.dependency.ApplicationContextTestResourceNameType;
 import java.io.File;
 import javax.annotation.Resource;
 import org.junit.Test;

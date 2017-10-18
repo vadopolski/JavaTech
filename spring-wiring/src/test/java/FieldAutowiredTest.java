@@ -1,3 +1,5 @@
+import com.baeldung.dependency.ApplicationContextTestAutowiredType;
+import com.baeldung.dependency.ArbitraryDependency;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,21 +16,36 @@ import static org.junit.Assert.assertNotNull;
     classes=ApplicationContextTestAutowiredType.class)
 public class FieldAutowiredTest {
 
-    @Autowired
-    @Qualifier("autowiredFieldDependency")
-    private ArbitraryDependency fieldDependency;
+//    @Autowired
+//    @Qualifier("autowiredFieldDependency")
+//    private ArbitraryDependency fieldDependency;
+
+//    @Autowired
+//    @Qualifier("anotherAutowiredFieldDependency")
+//    private ArbitraryDependency anotherFieldDependency;
 
     @Autowired
-    @Qualifier("anotherAutowiredFieldDependency")
-    private ArbitraryDependency anotherFieldDependency;
+    private ArbitraryDependency autowiredFieldDependency;
+
+    @Autowired
+    private ArbitraryDependency anotherAutowiredFieldDependency;
+//    @Test
+//    public void givenAutowired_WhenSetOnField_ThenDependencyResolved() {
+//        assertNotNull(fieldDependency);
+//    }
+//
+//    @Test
+//    public void givenAutowired_WhenSetOnAnotherField_ThenDependencyResolved() {
+//        assertNotNull(anotherFieldDependency);
+//    }
 
     @Test
     public void givenAutowired_WhenSetOnField_ThenDependencyResolved() {
-        assertNotNull(fieldDependency);
+        assertNotNull(autowiredFieldDependency);
     }
 
     @Test
-    public void givenAutowired_WhenSetOnAnotherField_ThenDependencyResolved() {
-        assertNotNull(anotherFieldDependency);
+    public void givenAnotherAutowired_WhenSetOnField_ThenDependencyResolved() {
+        assertNotNull(anotherAutowiredFieldDependency);
     }
 }

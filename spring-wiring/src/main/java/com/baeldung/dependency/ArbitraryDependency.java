@@ -1,7 +1,8 @@
-import javax.ejb.Stateless;
+package com.baeldung.dependency;
+
 import org.springframework.stereotype.Component;
 
-@Stateless
+@Component
 public class ArbitraryDependency {
 
     private final String label = "Arbitrary Dependency";
