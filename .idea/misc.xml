@@ -14,6 +14,7 @@
       <set>
         <option value="$PROJECT_DIR$/EJB/pom.xml" />
         <option value="$PROJECT_DIR$/enterprisejavabeans/pom.xml" />
+        <option value="$PROJECT_DIR$/springwiring/pom.xml" />
       </set>
     </option>
   </component>

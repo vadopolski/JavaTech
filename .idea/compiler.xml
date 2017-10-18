@@ -15,6 +15,7 @@
         <module name="jdbc" />
         <module name="Mockito" />
         <module name="PowerMock" />
+        <module name="spring-wiring" />
         <module name="UnitTest" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,8 @@
       <module name="jdbc" target="1.7" />
       <module name="Mockito" target="1.5" />
       <module name="PowerMock" target="1.5" />
+      <module name="spring-wiring" target="1.5" />
+      <module name="springwiring" target="1.5" />
       <module name="UnitTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>

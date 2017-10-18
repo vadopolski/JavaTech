@@ -20,6 +20,8 @@
         <module>enterprisejavabeans</module>
         <module>ejb</module>
         <module>asynchronous</module>
+        <module>springwiring</module>
+        <module>spring-wiring</module>
     </modules>
 
 
