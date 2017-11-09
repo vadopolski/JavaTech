@@ -136,12 +136,6 @@ public class AdvancedStreamTest1 {
         System.out.println(map6);
 
         Stream<String> animals11 = Stream.of("lions", "tigers", "bears");
-        Map<Integer, Optional<Character>> map7 = animals11.collect(
-            Collectors.groupingBy(
-                String::length,
-                Collectors.mapping(j -> j.charAt(0),
-                    Collectors.minBy(Comparator.naturalOrder()))));
-//        System.out.println(map7);
 
     }
 }

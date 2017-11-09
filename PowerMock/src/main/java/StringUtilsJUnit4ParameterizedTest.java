@@ -4,7 +4,6 @@ import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.apache.commons.lang.StringUtils;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -20,11 +19,6 @@ public class StringUtilsJUnit4ParameterizedTest {
         this.expected = expected;
     }
 
-    @Test
-    public void testIsEmpty() {
-        final boolean actual = StringUtils.isEmpty(testData);
-        assertEquals(expected, actual);
-    }
 
     @Parameterized.Parameters
     public static List<Object[]> isEmptyData() {
