@@ -1,9 +1,9 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.junit4.PowerMockRunner;
-
-import static org.easymock.EasyMock.expect;
+//import org.powermock.core.classloader.annotations.PrepareForTest;
+//import org.powermock.modules.junit4.PowerMockRunner;
+//
+//import static org.easymock.EasyMock.expect;
 import static org.junit.Assert.*;
 import static org.powermock.api.easymock.PowerMock.*;
 
@@ -12,9 +12,9 @@ import static org.powermock.api.easymock.PowerMock.*;
  * Created by sbt-opolskiy-va on 21.04.2017.
  */
 
-@RunWith(PowerMockRunner.class)
-//@PrepareForTest(IdGenerator.class)
-@PrepareForTest(ServiceRegistrator.class)
+//@RunWith(PowerMockRunner.class)
+////@PrepareForTest(IdGenerator.class)
+//@PrepareForTest(ServiceRegistrator.class)
 public class ServiceRegistratorTest {
 
     @Test
@@ -34,7 +34,7 @@ public class ServiceRegistratorTest {
 	 * This is why we need PowerMock.
 	 */
 //        expect(IdGenerator.generateNewId()).andReturn(expectedId);
-        expect(ServiceRegistrator.getMesosRole()).andReturn(expectedValue);
+//        expect(ServiceRegistrator.getMesosRole()).andReturn(expectedValue);
 
         // Note how we replay the class, not the instance!
 //        replay(IdGenerator.class);

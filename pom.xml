@@ -22,6 +22,9 @@
         <module>asynchronous</module>
         <module>springwiring</module>
         <module>spring-wiring</module>
+        <module>spring</module>
+        <module>executor-service</module>
+        <module>spring-without-xml</module>
     </modules>
 
 

@@ -1,7 +1,6 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.testng.annotations.BeforeMethod;
 
 import static org.junit.Assert.assertFalse;
 import static org.mockito.Mockito.spy;
@@ -14,7 +13,7 @@ public class MockitoSpyExmpl {
     private static Employee employee;
     private static Employee spyEmployee;
 
-    @BeforeMethod
+    @Before
     public void buildSpy(){
         employee = new Employee("Anton", "Antonov", 33);
         spyEmployee = spy(employee);
